@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="./stylex.css">
+</head>
+<body>
+    <section>
+        <article>
+          <form action="" method="get">
+            <img id="sqimg" src="sq.png"> 
+            <div>
+                <h1>Send us an enquiry</h1>
+            </div>
+            <div class="imgdiv">
+            <img src="Ellipse.png">
+            <img src="Vectorline.png">
+            <img src="Vectorarrow.png">
+            </div>
+            <img src="circle.png" id="cir_img">
+            <div class="options">
+                <label for="name">Your information</label>
+                <label for="name">Podcast subject</label>
+                <label for="name">Language</label>
+                <label for="name">Looking for</label>
+                <label for="name">Submit</label>
+            </div>
+            <div class="nameDiv">
+                <label for="name">Your name</label>
+                <input type="text" id="yname" placeholder="Enter your name" pattern="[A,Z],[a,z],[0,9]" required> 
+            </div>
+            <div class="type_div">
+                <label for="b_type">Type of business</label>
+                <span class="ind_span">
+                    <input type="radio" id="Individual" value="Individual"  name="business" checked="checked" >
+                    <label for="ind" class="indi_btn">Individual</label>
+                </span>
+                <span class="corp_span">
+                    <input type="radio" id="Corporate " value="Corporate " name="business">
+                    <label for="corp" class="indi_btn">Corporate </label>
+                </span>
+            </div>
+            <div class="podcast">
+                <label for="podcast">Do you already have a podcast?</label>
+                <span class="yes_span">
+                    <input type="radio" id="y" value="Yes" checked="checked"  name="podcast">
+                    <label for="yes" class="indi_btn">YES</label>
+                </span>
+                <span class="no_span">
+                    <input type="radio" id="n " value="NO" checked="checked" name="podcast">
+                    <label for="n" class="indi_btn"> NO</label>
+                </span>
+            </div>
+            <div class="mob_Div">
+                <label for="name">Mobile no</label>
+                <input type="number" id="Mobile" placeholder="+91" pattern="[0,9]" required> 
+            </div>
+            <div class="email_Div">
+                <label for="email">Email ID</label>
+                <input type="mail" id="mail" placeholder="Enter email id" pattern="[0,9],[a-z],[0,9],@, ." required> 
+            </div>
+            <div class="button">
+                <button id="btn">Next</button>
+            </div>
+
+          </form>
+        </article>
+    </section>
+</body>
+</html>
